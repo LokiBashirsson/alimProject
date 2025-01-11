@@ -1,0 +1,60 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    .header,
+    .main,
+    .footer {
+        max-width: 1440px;
+    }
+
+    .header {
+        display: flex;
+        justify-content: center;
+        gap: 65px;
+        padding: 12px 115px 22px 0;
+        width: 100%;
+        height: 84px;
+        background: #F5D0A9;
+        border-radius: 0 0 12px 12px;
+
+        div {
+            display: flex;
+            align-items: center;
+            gap: 28px;
+
+            a {
+                text-decoration: none;
+                font-family: var(--font-family);
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 150%;
+                color: rgba(0, 0, 0, 0.85);
+                transition: all 0.16s;
+
+                &:hover {
+                    color: rgba(255, 255, 255, 1);
+                }
+            }
+        }
+    }
+
+    .footer {
+        background: #F5D0A9;
+        width: 1440px;
+        border-radius: 12px 12px 0 0;
+        padding: 24px 36px 12px 36px;
+
+        h1{
+            font-size: 24px;
+            margin-bottom: 1rem;
+        }
+        p{
+            margin-top: 0;
+            line-height: normal;
+        }
+        
+    }
+}

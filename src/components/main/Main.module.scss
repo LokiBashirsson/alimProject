@@ -1,0 +1,54 @@
+.Main {
+    position: relative;
+    background: url('../../assets/firstHomePicture.jpg');
+    width: 1440px;
+    height: 725px;
+    border-radius: 12px;
+
+    >div {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        gap: 55px;
+        top: 171px;
+        right: 71px;
+        width: 507px;
+        height: 336px;
+
+        >h5 {
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 160%;
+            text-transform: uppercase;
+            color: #159eec;
+        }
+
+        >h3 {
+            font-weight: 600;
+            font-size: 40px;
+            line-height: 125%;
+            color: #1f2b6c;
+        }
+
+        >button {
+            border-radius: 13px;
+            padding: 13px 35px;
+            width: 176px;
+            height: 50px;
+            background: #1f2b6c;
+
+            outline: none;
+            border: 0;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 168%;
+            color: white;
+            cursor: pointer;
+            transition: all 0.16s;
+
+            &:hover{
+                filter: sepia(100%);
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'SF Pro Text', sans-serif;
+}
+
+@font-face {
+  font-family: 'SF Pro Text';
+  src: url('fonts/SFProText-normal-500-100.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+body{
+  background-color: #D4E7F4;
+}
+
+a{
+  text-decoration: none;
+}
