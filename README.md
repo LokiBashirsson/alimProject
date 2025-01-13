@@ -1,5 +1,24 @@
 # React + TypeScript + Vite
 
+---
+## **Запуск проекта
+
+##### Переходим в корневую папку проекта, где находится Dockerfile и вводим команду:
+
+```yaml
+docker build -t nodeproject .
+```
+
+##### Запускаем проект:
+
+```yaml
+docker run -p 5173:5173 nodeproject
+```
+
+##### И переходим по [ссылке](http://localhost:5173/)
+
+---
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
