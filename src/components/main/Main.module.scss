@@ -30,7 +30,8 @@
             color: #1f2b6c;
         }
 
-        >button {
+        a {
+            text-align: center;
             border-radius: 13px;
             padding: 13px 35px;
             width: 176px;
@@ -46,9 +47,129 @@
             cursor: pointer;
             transition: all 0.16s;
 
-            &:hover{
+            &:hover {
                 filter: sepia(100%);
             }
         }
+    }
+}
+
+.Home {
+    background: url('../../assets/middleHomePicture.jpg');
+    height: 486px;
+    border-radius: 12px;
+    margin: 20px 0 0 0;
+    overflow: hidden;
+
+    .homeBlur {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 875px;
+        height: 486px;
+        backdrop-filter: blur(30px);
+        background: rgba(0, 0, 0, 0.1);
+
+        .homeBlur_box {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-height: 157px;
+            gap: 70px;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 6px;
+                max-height: 157px;
+
+
+                h2 {
+                    font-weight: 600;
+                    font-size: 16px;
+                    line-height: 312%;
+                    text-align: center;
+                    color: white;
+                }
+
+                h1 {
+                    font-weight: 700;
+                    font-size: 40px;
+                    text-align: center;
+                    color: white;
+                }
+            }
+        }
+    }
+}
+
+.MainFooter {
+    background-color: #49d1bb;
+    width: 100%;
+    border-radius: 12px;
+    margin: 20px 0 0 0;
+    padding: 20px;
+
+    >h2 {
+        font-weight: 700;
+        font-size: 15px;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        text-align: center;
+        color: #159eec;
+    }
+
+    >h1 {
+        margin: 14px 0 93px 0;
+        font-weight: 600;
+        font-size: 40px;
+        text-align: center;
+        color: #1f2b6c;
+    }
+
+    .MainFooter_boxes {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        border-radius: 5px;
+
+        >div {
+            display: flex;
+            overflow: hidden;
+            background: #fcfefed5;
+            border-radius: 12px;
+            max-width: 442px;
+
+            img {
+                width: 145px;
+                height: 187px;
+                margin: 0 0 0 -4px;
+            }
+
+            >div {
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                padding: 24px 44px 0 16px;
+
+                h3 {
+                    font-weight: 700;
+                    font-size: 16px;
+                    color: #159eec;
+                }
+
+                p {
+                    font-family: var(--second-family);
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 99%;
+                    color: #212124;
+                }
+            }
+        }
+
+
     }
 }
